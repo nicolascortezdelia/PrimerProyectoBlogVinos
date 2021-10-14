@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+
+
+.navcolor{
+     
+     
+    background-image:  linear-gradient(43deg, #440808e7 0%, #460c13cc 46%, #1a160fb4 100%);
+    
+    
+}
+
+.navfijo{
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  
+  
+}
+
+.slider{
+  margin-top: 175px;
+}
+
+
+
+.colorIndex {
+    color: #993333;
+  }
+
+  .logoFooter{
+    width: 40%;
+}
+
+.colorfondos{
+    background: #993333;
+  }
+
+  .opacity img{
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 20px rgb(1, 36, 1);
+  }
+  
+.opacity:hover{
+  position: relative;
+  bottom: 3px;
+  right: 3px;
+  filter: opacity(50%);
+  transition:1s
+  }
+
+  .filtro{
+    filter: grayscale(100%) ;
+}
+  
+
+
+@media all and (max-width: 567px){
+    .img-responsive{
+        height: 250px;
+        object-fit: cover;
+    }
+
+   .footer-responsive{
+        display: flex;
+        justify-content: center;
+        }
+
+        .logoFooter{
+            width: 50%;
+            text-align: center;
+        }
+
+    .padding-footer{
+        padding: 15px!important;
+    }
+
+    .article-margin{
+        margin: 0px!important;
+
+    }
+
+    .login-responsive{
+        padding: 7px!important;
+    }
+
+    .marginMapa{
+        margin-top: 4%;
+      }
+
+      .slider-responsive{
+        height: 375px;
+        object-fit: cover;
+
+        
+    }
+
+    .comentarios{
+      width: 60%;
+      
+  }
+
+    
+}
+
+

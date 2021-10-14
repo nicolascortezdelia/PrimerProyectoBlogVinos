@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quien se ha tomado todo el vino</title>
+    <meta name="description" content="Blog de vinos" />
+    <meta name="keywords" content="vino, bebidas, alcohol,amigos" />
+    <meta
+      name="author"
+      content=" Luciana Medina, Lourdes Kasznar,Ignacio Vargas, Nicolas Cortez Delia, Luciana Hidalgo, Bautista Japaze "
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/85f80dca4b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+        <nav
+        class="
+          navbar navbar-expand-lg
+          navcolor
+          navbar-dark
+          navfijo
+          container-fluid
+        "
+      >
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="img/LogoBlogVinos.png"
+              alt="Logo de quien se ha tomado el vino"
+              width="150"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarVino"
+            aria-controls="navbarVino"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <section class="flex-row-reverse">
+            <div class="collapse navbar-collapse" id="navbarVino">
+              <ul class="navbar-nav me-auto mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Inicio</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/nosotros.html"
+                    >Acerca de Nosotros</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/Galeria.html">Galería</a>
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    href=""
+                    class="nav-link"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalSuscribe"
+                  >
+                    <p>Suscribite</p>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/Login.html">
+                    <i class="far fa-user"></i> Iniciar Sesión</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div
+        id="sliderPrincipal"
+        class="carousel slide slider"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#sliderPrincipal"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#sliderPrincipal"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#sliderPrincipal"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/slider 3.png"
+              class="d-block w-100 slider-responsive"
+              alt="frases sobre tomar vinos"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/slider 2.png"
+              class="d-block w-100 slider-responsive"
+              alt="farses sobre tomar vino"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/slider 1.png"
+              class="d-block w-100 slider-responsive"
+              alt="franses sobre tomar vino"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#sliderPrincipal"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#sliderPrincipal"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container mb-3">
+        <div class="row mt-5">
+          <div class="col-sm-12 col-md-6">
+            <div class="row">
+              <div class="col-sm-12 col-md-12">
+                <div class="card">
+                  <img src="img/vinedos.png" alt="Vinedos" />
+                  <div class="card-body">
+                    <h5 class="card-title colorIndex">Servicio y Vinos</h5>
+                    <p class="card-text">
+                      Para disfrutar completamente de un vino es necesario tener
+                      en cuenta aspectos como la temperatura de consumo, la
+                      elección de las copas y la presentación de la botella en
+                      la mesa
+                    </p>
+                    <a
+                      href="pages/entrada1serviciosyvinos.html"
+                      class="btn btn-dark"
+                      >Ver más</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 mt-3">
+                <div class="card">
+                  <img
+                    src="img/mesas con vino en vinedo.png"
+                    alt="Mesa con copas de vino en exterior"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title colorIndex letratitulo">Regiones</h5>
+                    <p class="card-text">
+                      El mapa argentino vitivinícola se compone de cinco
+                      regiones principales.
+                    </p>
+                    <a href="pages/entrada2regiones.html" class="btn btn-dark"
+                      >Ver más</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 mt-3">
+                <div class="card">
+                  <img
+                    src="img/restaurtante.png"
+                    alt="Mesa con copas de vino en interior"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title colorIndex">Turismo y Vino</h5>
+                    <p class="card-text">
+                      Las nuevas inversiones y actividades de promoción que
+                      desarrollaron las bodegas, permitieron desarrollar bodegas
+                      preparadas para la atención de visitantes.
+                    </p>
+                    <a
+                      href="pages/entrada3turismoyvino.html"
+                      class="btn btn-dark"
+                      >Ver más</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 mt-3">
+                <nav aria-label="Control de paginación" class="mt-3">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item active">
+                      <a class="page-link" href="index.html">1</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="pages/error.html">2</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="pages/error.html">3</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="pages/error.html">4</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="pages/error.html">5</a>
+                    </li>
+                    <li class="page-item">
+                      <a
+                        class="page-link"
+                        href="pages/error.html"
+                        aria-label="Next"
+                      >
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <form class="d-flex">
+              <input
+                class="form-control me-2 colorIndex border border-2"
+                type="search"
+                placeholder="¿Buscas algun tema? Escribilo acá "
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-dark colorIndex me-2 border border-2"
+                type="submit"
+              >
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+            <section>
+              <div class="mt-3">
+                <h3 class="text-decoration-underline colorIndex text-center">
+                  Categorías
+                </h3>
+              </div>
+              <div class="list-group mt-3">
+                <a
+                  href="pages/error.html"
+                  class="
+                    colorIndex
+                    border border-2
+                    list-group-item list-group-item-action
+                  "
+                >
+                  <b>Vinos Blancos </b>
+                </a>
+                <a
+                  href="pages/error.html"
+                  class="
+                    colorIndex
+                    border border-2
+                    list-group-item list-group-item-action
+                  "
+                >
+                  <b>Vinos Tintos</b>
+                </a>
+                <a
+                  href="pages/error.html"
+                  class="
+                    colorIndex
+                    border border-2
+                    list-group-item list-group-item-action
+                  "
+                >
+                  <b> Vinos Rosados</b>
+                </a>
+                <a
+                  href="pages/error.html"
+                  class="
+                    colorIndex
+                    border border-2
+                    list-group-item list-group-item-action
+                  "
+                >
+                  <b>Vinos Espumantes</b></a
+                >
+                <a
+                  href="pages/error.html"
+                  class="
+                    colorIndex
+                    border border-2
+                    list-group-item list-group-item-action
+                  "
+                >
+                  <b> Bodegas en Mendoza</b>
+                </a>
+                <a
+                  href="pages/error.html"
+                  class="
+                    colorIndex
+                    border border-2
+                    list-group-item list-group-item-action
+                  "
+                >
+                  <b> Bodegas en Neuquén </b>
+                </a>
+                <a
+                  href="pages/error.html"
+                  class="
+                    colorIndex
+                    border border-2
+                    list-group-item list-group-item-action
+                  "
+                >
+                  <b> Bodegas en San Juan </b>
+                </a>
+                <a
+                  href="pages/error.html"
+                  class="
+                    colorIndex
+                    border border-2
+                    list-group-item list-group-item-action
+                  "
+                  ><b> Bodegas en Cafayate </b>
+                </a>
+                <a
+                  href="pages/error.html"
+                  class="
+                    colorIndex
+                    border border-2
+                    list-group-item list-group-item-action
+                  "
+                >
+                  <b> Bodegas Internacionales</b></a
+                >
+                <a
+                  href="pages/error.html"
+                  class="
+                    colorIndex
+                    border border-2
+                    list-group-item list-group-item-action
+                  "
+                >
+                  <b> Mejores Maridajes</b>
+                </a>
+                <a
+                  href="pages/error.html"
+                  class="
+                    colorIndex
+                    border border-2
+                    list-group-item list-group-item-action
+                  "
+                >
+                  <b>Copas</b>
+                </a>
+              </div>
+            </section>
+            <div class="d-none d-sm-none d-md-block mt-3">
+              <img
+                src="img//turismomendoza_01.jpg"
+                alt="Publicidad Turismo Mendoza"
+                class="w-100"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div
+      class="modal fade"
+      id="modalSuscribe"
+      tabindex="-1"
+      aria-labelledby="tituloModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-center display-6" id="tituloModal">
+              Suscribite a Nuestro Newsletter
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <p class="mt-2">
+              Ingresá tu E-mail. Luego, presioná el botón
+              <span class="fw-bold">ENVIAR</span>. Recibirás semanalmente la
+              mejor info sobre vinos
+            </p>
+            <form>
+              <input
+                type="email"
+                class="form-control"
+                id="EMail"
+                placeholder="juanperez@gmail.com"
+                required
+                maxlength="30"
+                minlength="5"
+              />
+              <label for="EMail"></label>
+              <button type="submit" class="btn btn-primary mt-2">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-light py-5 padding-footer">
+      <article class="row w-100 article-margin">
+        <div class="col-sm-12 col-md-4 footer-responsive text-center">
+          <img
+            src="/img/LogoBlogVinos.png"
+            class="logoFooter"
+            alt="Logo Quien se ha tomado todo el Vino"
+          />
+        </div>
+
+        <div class="col-sm-12 col-md-4 text-center">
+          <p class="fw-bold">¡Sumate a Nuestra Comunidad!</p>
+          <p>Contactanos a través de nuestro e-mail</p>
+          <p class="fw-bold">info@quiensehatomadoelvino.com</p>
+        </div>
+
+        <div class="col-sm-12 col-md-4 text-center">
+          <p class="fw-bold">Seguinos en nuestras redes:</p>
+          <i class="fab fa-2x p-1 fa-facebook-square"></i>
+          <i class="fab fa-2x p-1 fa-twitter-square"></i>
+          <i class="fab fa-2x p-1 fa-instagram-square"></i>
+        </div>
+      </article>
+
+      <article class="text-center">
+        <p>&copy; Todos los derechos de reservados</p>
+      </article>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
